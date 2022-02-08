@@ -1,1 +1,1 @@
-# Amino_acid_network_analysis
+# Amino acid network analysis
