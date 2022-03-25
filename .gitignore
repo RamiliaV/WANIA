@@ -37,3 +37,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Folder with abstracts and presentations
+/Тезисы_доклады
