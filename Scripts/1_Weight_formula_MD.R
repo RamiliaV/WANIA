@@ -12,6 +12,30 @@ library(ggdist)
 library(scales)
 library(apcluster)
 
+####################################
+# 0 function - Технические функции #
+####################################
+
+firstup <- function(x) {
+  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+  x
+}
+
+find_file <- function(string) {
+  
+  file_names <- c()
+  nodes_filenames <- list.files(path = "Data/NaPi2b/str_data/")
+  nodes_filename <- nodes_filenames[str_detect(nodes_filenames, string)]
+  file_names[1] <- str_c("Data/NaPi2b/str_data/", nodes_filename, sep = "")
+  
+  edges_filenames <- list.files(path = "Data/NaPi2b/aminoacids_interactions/")
+  edges_filename <- edges_filenames[str_detect(edges_filenames, string)]
+  file_names[2] <- str_c("Data/NaPi2b/aminoacids_interactions/", edges_filename, sep = "")
+  
+  return(file_names)
+  
+}
+
 #############################################################
 # 1st function - Создание графов без и по каждому параметру #
 #############################################################
