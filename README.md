@@ -1,4 +1,4 @@
-# Amino acid network analysis
+# Weighted Amino acid Network Illustrative Analysis
 
 Comparison of the amino acid networks with different molecular characteristics obtained using molecular dynamics allows us to study the contribution of certain amino acids to both structural stability and conformational mobility of proteins. 
 
