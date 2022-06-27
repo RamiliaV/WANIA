@@ -92,7 +92,7 @@ compare_graphs_with_formula <- function(graph_1, graph_2, names) {
   
   nodes_xy <- graph %>%
     activate(nodes) %>%
-    as.tibble() %>%
+    as_tibble() %>%
     select(x,y) 
   names(nodes_xy) <- c("x1", "y1")
   
@@ -175,7 +175,7 @@ compare_graphs_with_formula <- function(graph_1, graph_2, names) {
     geom_node_point(aes(color = graph, size = coef_2, alpha = diff)) +
     geom_node_text(aes(label = label, size = coef_2), repel = T) +
     scale_edge_linetype_manual(values=c("solid", "dotdash")) +
-    scale_color_manual(values = c("red", "blue")) +
+    scale_color_manual(values = c("yellow", "blue"), aesthetics = "color") +
     scale_size_continuous(trans = "log10") +
     facet_nodes(~ graph) +
     theme_graph() +
