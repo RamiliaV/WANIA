@@ -30,6 +30,8 @@ The set of mutations found in tumor samples were mapped on the obtained graphs. 
 
 The developed robust clustering algorithm was utilized to conduct a comparative analysis of the AANs of NaPi2b with the absence and the presence of potential disulfide bonds (303-328, 328-350). The AANs of NaPi2b were mostly similar to each other, but the considerable difference was found between the control and the AAN with disulfide bond 303-328.
 
+_/Scripts/4_NaPi2B_comparison.R_
+
 ![Slide 1](./Слайд6.JPG)
 
 !!!add html here!!!
