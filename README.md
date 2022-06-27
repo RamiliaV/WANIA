@@ -13,3 +13,7 @@ To compare amino acid networks adjacency matrices were obtained considering the 
 _/Scripts/3_DXylose_transporter_comparison.R_
 
 **An example** - The developed algorithm was utilized to conduct a comparative analysis of the amino acid networks of D-xylose transporter of E.coli in different lipid environments.
+
+_/Scripts/4_NaPi2B_comparison.R_
+
+**Implementation** - The developed algorithm was utilized to conduct a comparative analysis of the amino acid networks of NaPi2B with the absence and the presence of potential disulfide bonds (303-328, 328-350).
