@@ -35,7 +35,7 @@ _/Scripts/4_NaPi2B_comparison.R_
 
 ![Slide 1](./Слайд6.JPG)
 
-<iframe src="./interactive_network.html" style="border:none;width:800px;height:500px;"></iframe>
+<iframe src="./interactive_network.html" style="border:none;width:600px;height:500px;"></iframe>
 
 
 Additionally, we identified the amino acid residues from tumor mutational dataset and had the most impact on the structure of NaPi2b. Critical amino acid residues are located in one of the transmembrane domains (217ALA, 218THR, 221ASP, 224ASN), in the largest extracellular domain (297SER, 299VAL), in one of the two pseudosymmetrically located loops (163SER) comprising serine rich QSSS functional motifs within protein transport core, and in the N-domain (90LYS). Mutations in these sites were discovered in samples of oncological diseases of stomach, lung, bowel, liver and brain.
