@@ -29,4 +29,9 @@ Additionally, we identified the amino acid residues from tumor mutational datase
 
 The algorithm for determining the node weight formula, the graph comparison and the mutation mapping were developed and automated. And the comparative analysis of the AANs of NaPi2b with the absence and the presence of potential disulfide bonds were carried out, which results in the list of amino acid residues which were found altered in tumor samples and had the most impact on the structure of NaPi2b protein.
 
+### References
+
+[Vlasenkova, R et al. (2021) Characterization of SLC34A2 as a Potential Prognostic Marker of Oncological Diseases. Biomolecules. 10.3390/biom11121878](https://www.mdpi.com/2218-273X/11/12/1878)
+
+
 
