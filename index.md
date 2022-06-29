@@ -7,17 +7,19 @@ The active roles of individual amino acids across the proteome is determined by 
 
 ![Slide 1](./Слайд2.JPG)
 
-## Methods and Algorithms
-
 ![Slide 1](./Слайд3.JPG)
 
-_/Scripts/1_Weight_formula_MD.R_
+## Methods and Algorithms
 
 ![Slide 1](./Слайд4.JPG)
 
-_/Scripts/2_Comparative_analysis.R_
+_/Scripts/1_Weight_formula_MD.R_
 
 ![Slide 1](./Слайд5.JPG)
+
+_/Scripts/2_Comparative_analysis.R_
+
+![Slide 1](./Слайд6.JPG)
 
 The NaPi2b structure was predicted ab initio and thermodynamically stabilized by the method of Molecular Dynamics. Disulfide bonds (aa 303-328, aa 328-350) were introduced by controlled Molecular Dynamics. Molecular Dynamics simulation was carried out using the NAMD program, Molecular Dynamics parameters were obtained using the bio3d R package and the VMD software. 
 Considering the entire complex of amino acid parameters in the construction of networks, a new algorithm for determining the formula of the node weight has been developed. Weighted graphs were constructed, the weight in which was determined by one of the following likelihood parameters:  residence time for amino acid residue staying continuously in forbidden regions, residence time for amino acid residues interacted with water, RMSF (Root Mean Square Fluctuation), the average conservation of positions of each amino acid.
@@ -33,20 +35,19 @@ _/Scripts/4_NaPi2B_comparison.R_
 
 ### wAAN of NaPi2b with the absence and the presence of potential disulfide bonds (303-328, 328-350)
 
-![Slide 1](./Слайд6.JPG)
+![Slide 1](./Слайд7.JPG)
+
+![Slide 1](./Слайд8.JPG)
 
 <iframe src="./interactive_network.html" style="border:none;width:700px;height:500px;"></iframe>
-
 
 Additionally, we identified the amino acid residues from tumor mutational dataset and had the most impact on the structure of NaPi2b. Critical amino acid residues are located in one of the transmembrane domains (217ALA, 218THR, 221ASP, 224ASN), in the largest extracellular domain (297SER, 299VAL), in one of the two pseudosymmetrically located loops (163SER) comprising serine rich QSSS functional motifs within protein transport core, and in the N-domain (90LYS). Mutations in these sites were discovered in samples of oncological diseases of stomach, lung, bowel, liver and brain.
 
 ### Tumor mutational profile of NaPi2b
 
-![Slide 1](./Слайд8.JPG)
+![Slide 1](./Слайд9.JPG)
 
 ### Important amino acid residues in cancer
-
-![Slide 1](./Слайд9.JPG)
 
 ![Slide 1](./Слайд10.JPG)
 
@@ -54,13 +55,23 @@ Additionally, we identified the amino acid residues from tumor mutational datase
 
 ![Slide 1](./Слайд12.JPG)
 
+![Slide 1](./Слайд13.JPG)
+
+![Slide 1](./Слайд14.JPG)
+
+![Slide 1](./Слайд15.JPG)
+
+![Slide 1](./Слайд16.JPG)
+
+![Slide 1](./Слайд17.JPG)
+
 ## Conclusion
 
 The algorithm for determining the node weight formula, the graph comparison and the mutation mapping were developed and automated. And the comparative analysis of the AANs of NaPi2b with the absence and the presence of potential disulfide bonds were carried out, which results in the list of amino acid residues which were found altered in tumor samples and had the most impact on the structure of NaPi2b protein.
 
 ### Acknowledgement
 
-![Slide 1](./Слайд14.JPG)
+![Slide 1](./Слайд20.JPG)
 
 ## References
 
