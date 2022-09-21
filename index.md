@@ -68,6 +68,14 @@ _/Scripts/4_NaPi2B_comparison.R_
 
 ![Slide 1](./Слайд17.JPG)
 
+### Critical amino acid residues for interactions with ligands 
+
+![Slide 1](./Власенкова.Р.А._биоинформатика_АНАЛИЗ ВЗАИМОДЕЙСТВИЯ АМИНОКИСЛОТ НАТРИЙ-ЗАВИСИМОГО ТРАНСПОРТЕРА ЧЕЛОВЕКА NAPI2B С ЛИГАНДАМИ_for github.jpg)
+
+![Slide 1](./Власенкова.Р.А._биоинформатика_АНАЛИЗ ВЗАИМОДЕЙСТВИЯ АМИНОКИСЛОТ НАТРИЙ-ЗАВИСИМОГО ТРАНСПОРТЕРА ЧЕЛОВЕКА NAPI2B С ЛИГАНДАМИ_for github2.jpg)
+
+![Slide 1](./Власенкова.Р.А._биоинформатика_АНАЛИЗ ВЗАИМОДЕЙСТВИЯ АМИНОКИСЛОТ НАТРИЙ-ЗАВИСИМОГО ТРАНСПОРТЕРА ЧЕЛОВЕКА NAPI2B С ЛИГАНДАМИ_for github3.jpg)
+
 ## Conclusion
 
 The algorithm for determining the node weight formula, the graph comparison and the mutation mapping were developed and automated. And the comparative analysis of the AANs of NaPi2b with the absence and the presence of potential disulfide bonds were carried out, which results in the list of amino acid residues which were found altered in tumor samples and had the most impact on the structure of NaPi2b protein. Amino acid residues which altered in tumor samples and had the most impact on the structure of NaPi2b protein were identified and rationalized in context of interdomain  short and long range interactions potentially affecting function, expression contributing to tumor growth, patient survival and foldability of cancer-specific epitope contributing to recognition by analytical  and therapeutic Abs and their pharmokinetics. 
